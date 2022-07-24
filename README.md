@@ -1,6 +1,6 @@
 # Identify
 
-Optical Character Recognition (OCR) to extract information on Indonesian Identity Card (KTP) using Google Cloud Platform.
+Optical Character Recognition (OCR) to extract Indonesian Identity Card (E-KTP) data using Google Cloud Platform.
 
 ## Architecture
 
