@@ -11,8 +11,8 @@ from google.cloud import vision
 from werkzeug.utils import secure_filename
 
 # Setting the environment variable
-# - Uncomment the code below when testing is done locally
-# - Comment the code below when deployed in Google Cloud Functions
+# - Uncomment the code below (line 16) when testing is done locally
+# - Comment the code below (line 16) when deployed in Google Cloud Functions
 # os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "./serviceAccountKey.json"
 
 ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg"}
@@ -219,4 +219,5 @@ def parse_multipart(request):
         "data": data
     }, 200)
 
+# Run the following command (line 223) in terminal to run program locally
 # functions-framework --target parse_multipart --debug
